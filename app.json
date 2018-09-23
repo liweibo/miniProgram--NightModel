@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/me",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "换肤demo（公众号:一根羊毛）",
+    "navigationBarTextStyle":"black"
+  },
+
+"tabBar": {
+ 
+ 
+  
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "公众号→ →",
+      "iconPath": "images/img_index.png",
+      "selectedIconPath": "images/img_index_click.png"
+    },
+    
+    
+    {
+      "pagePath": "pages/me/me",
+      "text": "一根羊毛",
+      "iconPath": "images/img_me.png",
+      "selectedIconPath": "images/img_me_click.png"
+    }
+  ]
+},
+"debug": true
+}
